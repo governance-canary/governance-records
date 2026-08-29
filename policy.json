@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "phase": "Phase0",
+  "authority_refs": {
+    "policy": "refs/heads/policy",
+    "evidence": "refs/heads/evidence",
+    "acceptance": "refs/heads/acceptance"
+  }
+}
