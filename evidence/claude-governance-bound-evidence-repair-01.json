@@ -1,0 +1,43 @@
+{
+  "artifact_digest": "sha256:b4955becb979e2ea85c25fbf85c02c79e63bf701b1bd5ebe53b35f267b83817a",
+  "artifact_kind": "test-executor artifact v2 (tools/test-executor.py)",
+  "bound_commit": "7f43fae0eb180f61cfbea1c26ad35212b525ea69",
+  "digest_algorithm": "sha256",
+  "evidence_record_version": 2,
+  "note": "These results were produced against source_commit_sha, using suite_identity and verifier_identity, under policy_identity / policy_fingerprint, about the artifact named by artifact_digest.",
+  "per_test": 36,
+  "policy_fingerprint": "sha256:18cf62e18ca58cf7262fa3237219e506dc8a16d9d5c4bf70cb21582169ed505f",
+  "policy_identity": "a7ac52004599940c7c3b95a7ff8cec1cc6599bb7",
+  "policy_path": "policy.json",
+  "policy_ref": "refs/heads/policy",
+  "record_class": "EVIDENCE_ANCHOR",
+  "record_type": "hq-governance-suite-run",
+  "ref": "refs/heads/evidence",
+  "repository_id": 1350457583,
+  "request_id": "claude-governance-bound-evidence-repair-01",
+  "result": {
+    "per_test_count": 36,
+    "per_test_verdicts": {
+      "NOT_RUNNABLE": 1,
+      "PASS": 35
+    },
+    "suite_exit_status": 0,
+    "verifier_exit_code": 0,
+    "verifier_verdict": "BOUND"
+  },
+  "runner_identity": "test-executor/2 py3.13.14 Windows AMD64 sha256-nl:5d7b9d830a646fbb",
+  "source_commit_sha": "7f43fae0eb180f61cfbea1c26ad35212b525ea69",
+  "suite_argv": [
+    "--full",
+    "--packet",
+    "{PACKET}"
+  ],
+  "suite_exit_status": 0,
+  "suite_identity": "sha256-nl:fa802554ff3cdf35a385df8289740f05b68fb4d443e1435c95db3f6d730cb669",
+  "suite_path": "tools/governance-suite/run_suite.py",
+  "verifier_identity": "sha256-nl:00e89efde2a498047b5e17f67b18ded05b21c61f2f319761c43f3853e20dabb8",
+  "verifier_path": "tools/test-evidence.py",
+  "version": 2,
+  "written_at_utc": "2026-08-29T16:24:33Z",
+  "written_by": "governance-evidence-publisher (GitHub App installation token)"
+}
