@@ -1,0 +1,9 @@
+{
+  "note": "positive control for the provider D authority canary. non-normative for phase acceptance.",
+  "record_type": "provider-d-empirical-canary",
+  "ref": "refs/heads/evidence",
+  "repository_id": 1350457583,
+  "request_id": "claude-governance-app-permission-approved-canary-rerun-01",
+  "written_at_utc": "2026-08-29T14:50:05Z",
+  "written_by": "governance-evidence-publisher (GitHub App installation token)"
+}
