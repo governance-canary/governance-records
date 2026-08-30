@@ -1,0 +1,26 @@
+{
+  "account_login": "<PROVIDER_LOGIN>",
+  "account_login_role": "SECONDARY_LABEL_ONLY",
+  "adoption_authority": 322437042,
+  "adoption_event_ref": "refs/heads/policy",
+  "authority_ref": "refs/heads/policy",
+  "authority_role": "HUMAN_GOVERNANCE_AUTHORITY",
+  "authority_scope": [
+    "PHASE0"
+  ],
+  "created_by_process": "EXTERNAL_HUMAN_VIA_PROVIDER_WEB_UI",
+  "effective_from": "2026-08-30T00:03:13Z",
+  "immutable_provider_actor_id": 322437042,
+  "policy_base_commit": "a7ac52004599940c7c3b95a7ff8cec1cc6599bb7",
+  "provider": "github",
+  "provider_actor_node_id": "U_kgDOEzf_sg",
+  "provider_actor_type": "User",
+  "record_type": "HUMAN_GOVERNANCE_AUTHORITY",
+  "record_version": 1,
+  "repository": "governance-canary/governance-records",
+  "repository_id": 1350457583,
+  "revoked_at": null,
+  "schema_version": 1,
+  "status": "ACTIVE",
+  "superseded_by": null
+}
