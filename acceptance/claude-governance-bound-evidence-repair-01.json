@@ -1,0 +1,35 @@
+{
+  "accepts": {
+    "evidence": {
+      "blob_sha": "37d985d486e10a02664c83270ecee9fed0b49d14",
+      "commit_sha": "0d51d0ec2c876e70b3d5b87ddd9a89ee1a9c9e2a",
+      "content_sha256": "sha256:343ae3f6c0743c51835a94644216e65a97770ac1c7256bfdedfe1fe84167037f",
+      "path": "evidence/claude-governance-bound-evidence-repair-01.json",
+      "ref": "refs/heads/evidence",
+      "repository_id": 1350457583,
+      "request_id": "claude-governance-bound-evidence-repair-01"
+    },
+    "policy": {
+      "blob_sha": "6d06e8c8f999e1313543db0ce60022a4bccc97e5",
+      "commit_sha": "a7ac52004599940c7c3b95a7ff8cec1cc6599bb7",
+      "fingerprint": "sha256:18cf62e18ca58cf7262fa3237219e506dc8a16d9d5c4bf70cb21582169ed505f",
+      "path": "policy.json",
+      "ref": "refs/heads/policy"
+    }
+  },
+  "decision": "PHASE0_ACCEPT",
+  "decision_class": "EXTERNAL_HUMAN_PHASE0_ACCEPT",
+  "independent_review": {
+    "decision": "PASS",
+    "raw_output_path": "handoffs/_jocasta-out-20260830-v2.md",
+    "raw_output_scope": "LOCAL_ONLY. Not published to this repository.",
+    "raw_output_sha256_over_crlf_normalized_to_lf": "3de632a0035fb881615f5c275b84e45da1dc8738a05a77deed4d2983a542eb14",
+    "request_id": "claude-governance-jocasta-independent-review-01",
+    "reviewer_role": "INDEPENDENT_GOVERNANCE_REVIEWER"
+  },
+  "is_not": "READY_FOR_INDEPENDENT_GOVERNANCE_REVIEW",
+  "note": "This record is the external Human Phase0 ACCEPT. READY_FOR_INDEPENDENT_GOVERNANCE_REVIEW is a separate and earlier determination made by the independent reviewer and accepts no Phase. Committing this file to refs/heads/acceptance is the Human ACCEPT act: the designated Human authority identity is established by the provider's attested actor of that commit, not by any field written inside this record. Source commit, suite identity, verifier identity and artifact digest are not repeated here; they are transitively bound through the exact reviewed evidence identity in accepts.evidence.",
+  "record_class": "HUMAN_ACCEPTANCE",
+  "request_id": "claude-governance-bound-evidence-repair-01",
+  "scope": "PHASE0"
+}
