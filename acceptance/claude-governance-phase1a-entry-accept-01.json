@@ -1,0 +1,27 @@
+{
+  "accepts": {
+    "evidence": {
+      "blob_sha": "1db16f45e8c16c2808b586f4d603b809786773f5",
+      "commit_sha": "873ad37673596433b1f642e9a9383ccb6b5cf5ea",
+      "content_sha256": "4dcb9272210f9f26f5aa4853baf77c1be7eab693c28d661f5c62566379cef14d",
+      "path": "evidence/claude-governance-phase1a-entry-accept-01.json",
+      "ref": "refs/heads/evidence",
+      "repository_id": 1350457583,
+      "request_id": "claude-governance-phase1a-entry-accept-01"
+    },
+    "policy": {
+      "blob_sha": "6d06e8c8f999e1313543db0ce60022a4bccc97e5",
+      "commit_sha": "a7ac52004599940c7c3b95a7ff8cec1cc6599bb7",
+      "fingerprint": "sha256:18cf62e18ca58cf7262fa3237219e506dc8a16d9d5c4bf70cb21582169ed505f",
+      "path": "policy.json",
+      "ref": "refs/heads/policy"
+    }
+  },
+  "contract_fingerprint": "sha256:719453deb8773df6da05acaea8f613aaef4645a9c2e591871e967db60d854ada",
+  "decision": "PHASE1A_ACCEPT",
+  "decision_class": "EXTERNAL_HUMAN_PHASE1A_ACCEPT",
+  "note": "This record is the external Human Phase1a ACCEPT. It reuses the Phase0 authority chain (same repository, same refs/heads/policy, same refs/heads/evidence branch with a new file) and is committed to a DEDICATED branch refs/heads/acceptance-1a so that refs/heads/acceptance (the Phase0 acceptance record already reviewed and ACCEPTed) never moves again. Committing this file to refs/heads/acceptance-1a is the Human ACCEPT act: the designated Human authority identity is established by the provider's attested actor of that commit, not by any field written inside this record. contract_fingerprint pins the exact PHASE1A_ENTRY_CONTRACT (tools/phase1a_contract.py) version=1 being adopted.",
+  "record_class": "HUMAN_ACCEPTANCE",
+  "request_id": "claude-governance-phase1a-entry-accept-01",
+  "scope": "PHASE1A"
+}
