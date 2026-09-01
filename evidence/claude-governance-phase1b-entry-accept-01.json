@@ -1,0 +1,60 @@
+{
+  "bound_commit": "58ecbe7f10488e374b506a78e59d82009ed03aa3",
+  "digest_algorithm": "sha256",
+  "does_not_grant": {
+    "description": "承認されないもの。承認されるものと同じ重みで明記する（HQ 2026-09-02の指示）。",
+    "items": [
+      "Completion of Phase1b (this record grants ENTRY only, never completion).",
+      "Item #8: full generation of role tools/permissionMode from the registry (organization/agents.yaml) — not started.",
+      "Item #9: rewriting tools/hq-guard.py from a blacklist design to an allowlist design — not started.",
+      "Any authority for Phase2 or any later phase.",
+      "Resolution of UNRELATED_DEBT (gates G1, G4, G5, G8, G9). These remain open, visible, and unfixed by this record."
+    ]
+  },
+  "evidence_record_version": 2,
+  "grants": {
+    "description": "本人の1回の reaction が承認するのはこの3点だけ（HQ 2026-09-02の指示）。",
+    "items": [
+      "Adoption of the Phase1b entry contract at governance/phase1b-entry-contract/ (machine-readable twin: tools/phase1b_contract.py). Required flat gates for Phase1b entry = {G2, G3, G6, G7, G7b, G7c, G10}. UNRELATED_DEBT gates {G1, G4, G5, G8, G9} are excluded from the required set but are NOT deleted, NOT force-passed, and quality/PHASE.yaml is not modified by this contract.",
+      "Authorization for machine entry into Phase1b: `phasectl start 1b` becomes a reachable action (technical preflight and this authority envelope, together, are what `can_advance('1b')` requires).",
+      "A single machine-executed `phasectl start 1b` — and only if the fresh preflight computed at the moment of execution is PASS. If preflight is not PASS at that moment, this authority does not cause a start."
+    ]
+  },
+  "measurements_at_preparation_time": {
+    "guard_routes_g7b_g10_limits": {
+      "description": "G7b/G10 are a regression/non-regression measurement of tools/guard-routes/routes.py, not a proof that all bypass paths are closed.",
+      "matches_expected_now": 35,
+      "still_open_route_ids": ["G12", "G13", "G15", "G19", "N01"],
+      "total_routes": 40
+    },
+    "measured_at_utc": "2026-09-01T18:36:10Z",
+    "phase0_authority": "INTACT — re-verified live via App-authenticated GET (tools/governance-anchor/app_auth_capture.py against governance/external-authority/phase0-expectation.json) immediately before this record was prepared. verdict=VERIFIED.",
+    "phase1a_state": {
+      "complete_count": 1,
+      "is_completed": true,
+      "start_count": 1
+    },
+    "required_gates_live": {
+      "G10": "OK",
+      "G2": "OK",
+      "G3": "OK",
+      "G6": "OK",
+      "G7": "OK",
+      "G7b": "OK",
+      "G7c": "OK"
+    }
+  },
+  "note": "This evidence anchors the Phase1b ENTRY authority decision (scope=PHASE1B) that this record's sibling acceptance record (accepts.evidence) embeds. It reuses the Phase0 authority chain (same repository, same refs/heads/policy branch, same refs/heads/evidence branch with a new file) without altering the Phase0 or Phase1a acceptance records. Scope note (HQ 2026-09-02, verbatim in spirit): the single reaction this evidence supports approves ENTRY into Phase1b, not the completion of Phase1b's work, and not any authority beyond Phase1b.",
+  "policy_fingerprint": "sha256:18cf62e18ca58cf7262fa3237219e506dc8a16d9d5c4bf70cb21582169ed505f",
+  "policy_identity": "a7ac52004599940c7c3b95a7ff8cec1cc6599bb7",
+  "policy_path": "policy.json",
+  "policy_ref": "refs/heads/policy",
+  "record_class": "EVIDENCE_ANCHOR",
+  "record_type": "phase1b-entry-authority-scope",
+  "ref": "refs/heads/evidence",
+  "repository_id": 1350457583,
+  "request_id": "claude-governance-phase1b-entry-accept-01",
+  "source_commit_sha": "58ecbe7f10488e374b506a78e59d82009ed03aa3",
+  "written_at_utc": "2026-09-01T18:36:10Z",
+  "written_by": "U (machine-prepared candidate under HQ's decision of 2026-09-02; Owner approves by a single GitHub reaction on the paired Release, never by pasting or hand-editing this record)"
+}
